@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+      "label": "Build C++ Program",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "monPremierFichier.cpp",
+        "monSecondFichier.cpp",
+        "-o",
+        "test"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Task for building C++ programs using G++"
+      }
+    ]
+  }

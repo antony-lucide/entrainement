@@ -1,0 +1,34 @@
+# 📁 Ignorer les dossiers générés automatiquement
+/vendor/
+/var/
+!var/.gitkeep
+/public/bundles/
+/node_modules/
+
+# 🗃️ Ignorer les fichiers de configuration locaux
+/.env
+/.env.local
+/.env.*.local
+/.env.test.local
+
+# 🚧 Ignorer les caches et logs
+/.phpunit.result.cache
+/.idea/
+/.vscode/
+*.log
+*.cache
+
+# 🔥 Ignorer les fichiers temporaires ou système
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ⛵ Ignorer les fichiers de déploiement
+/deploy/*.sh
+/deploy/*.env
+
+# 🐳 Ignorer les fichiers Docker (optionnel)
+docker-compose.override.yml
+/.docker/
